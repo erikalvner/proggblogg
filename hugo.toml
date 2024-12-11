@@ -1,0 +1,66 @@
+baseURL = 'https://example.org/'
+languageCode = 'us-en'
+title = 'Proggarkivet'
+paginate = 5
+theme = "hugo-texify2"
+
+[module]
+  [module.hugoVersion]
+    min = "0.113.0"
+
+[[menu.main]]
+identifier = "post"
+name = "Inlägg"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "archives"
+name = "Arkiv"
+url = "/post/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "Om"
+url = "/about/"
+weight = 3
+
+[taxonomies]
+tags = "tags"
+
+[params]
+title="Proggarkivet"
+description = "TeXify2 - a minimal, latex-style hugo theme for personal blogging"
+images = ['images/logo.jpg']
+footnote = ""
+keywords = []
+customCSS = []
+customJS = []
+dateFormat = "January 2, 2006"
+emphasisWithDots = true
+since = "2023"
+toc = false
+showWordCount = true
+showReadingTime = true
+rootFontSize = "120%"
+math = true
+enableDuckDuckGoSearchBox = true
+numberedSubtitles = false
+
+[params.commentEngine]
+code = """
+"""
+
+[params.buymeacoffee]
+code = """
+"""
+
+[params.sharingbuttons]
+facebook = true
+twitter = true
+email = true
+linkedin = false
+reddit = false
+whatsapp = false
+hackernews = false
+telegram = true
+
